@@ -1,0 +1,52 @@
+*{	
+	text-align: center;
+}
+
+body{
+	background: gray;
+}
+
+div {
+	background: black;
+	min-height: 50px;
+	margin: 2px;
+}
+
+.Encabezado{
+	background: blue;
+	height: 100px;
+}
+
+.barra_lateral{
+	background: orange;
+	height: 500px;
+	width: 20%;
+}
+
+.Principal{
+	background: yellow;
+	width: 55%;
+	height: 500px;
+}
+
+.Publicidad{
+	background: green;
+	width: 20%;
+	height: 500px;
+}
+
+.pie_pagina{
+	background: black;
+	height: 100px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+.Principal,
+.Publicidad,
+.barra_lateral{
+	display: inline-block;
+}
