@@ -1,0 +1,44 @@
+body{
+	background-color: gray;
+}
+
+img{
+
+	height: 150px;
+}
+
+img:hover{
+	height: 200px;
+}
+
+img:active{
+	opacity: 0.5;
+}
+
+a:visited{
+	color: red;
+}
+
+li{
+
+font-variant: small-caps;
+font-family: arial; 
+font-size: 30px;
+line-height: 50px;
+
+}
+
+ol li {
+font-style: italic;
+}
+
+p{
+	font-family: 'Rubik', sans-serif;
+	word-spacing: 10px;
+	letter-spacing: 1px;
+	text-decoration: overline;
+	text-align: justify;
+	text-transform: capitalize;
+	text-indent: 30px;
+
+}
