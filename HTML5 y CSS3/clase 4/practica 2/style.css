@@ -1,0 +1,15 @@
+*{
+	background: #BFBFBF;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+th{
+	background: #D97E7E;
+}
+
+td{
+	background: #F2E0BD;
+}

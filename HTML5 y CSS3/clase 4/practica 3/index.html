@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<h1>Construyendo Formulario</h1>
+
+<form name="regristo" action="procesar.php" method="POST">
+	<h2>Registro</h2>
+	<span class="forma">Nombre:</span>
+	<input type="text" name="nombre" required> <br>
+	<span class="forma">Apellido:</span>
+	 <input type="text" name="apellido" required> <br>
+	<span class="forma">Cedula:</span>
+	 <input type="text" name="cedula" required> <br>
+	<span class="forma">Correo:</span>
+	 <input type="text" name="correo" required> <br>
+	<span class="forma">Password:</span>
+	<input type="password" name="clave" required> <br>
+	<span class="forma">Nivel de Estudio</span>
+	<select name="Estudio">
+		<option value="0" disabled>Seleccion una</option> 
+		<option value="1">Bachiller</option> 
+ 		<option value="2">Universitario</option>
+		<option value="3">Doctorado</option>
+		<option value="4">PHD</option>
+	</select><br>
+	<input type="radio" name="estadocivil" value="1" checked>
+	<span>Soltero</span>
+	<input type="radio" name="estadocivil" value="2">
+	<span>Casado</span>
+	<input type="radio" name="estadocivil" value="3">
+	<span>Divorciado</span>
+	<input type="radio" name="estadocivil" value="4">
+	<span>Viudo</span><br>
+	<span>Hobbies</span><br>
+	<input type="checkbox" name="estadocivil" value="1">
+	<span>Lucha</span>
+	<input type="checkbox" name="estadocivil" value="1">
+	<span>yoda</span><br>
+	<input type="checkbox" name="acceptar" value="1" required>
+	<span>Acepto los terminos</span><br>
+
+
+	<span>Comentarios</span> <br>
+	<textarea></textarea> <br>
+	<input type="submit" name="enviar" value="Enviar">
+	<input type="reset" name="reset" value="Reset">
+
+
+
+</form>
+
+</body>
+</html>
